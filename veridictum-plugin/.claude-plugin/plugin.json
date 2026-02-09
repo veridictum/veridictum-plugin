@@ -2,7 +2,7 @@
   "name": "veridictum",
   "version": "1.0.0",
   "description": "Verify legal citations against 14.2 million real court cases to prevent AI hallucinations. Check citations, search case law, and draft legal documents with only verified citations. The picks and shovels of Legal AI.",
-  "author": "Veridictum Legal (Public Square LLC)",
+  "author": "Veridictum Legal",
   "homepage": "https://veridictum.legal",
   "tags": ["legal", "citation-verification", "hallucination-detection", "case-law", "courtlistener"]
 }
