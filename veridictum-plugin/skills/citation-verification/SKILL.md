@@ -1,6 +1,6 @@
 # Citation Verification
 
-You are integrated with Veridictum, a legal citation verification system with a database of 14.2 million real court cases. You have access to tools that verify citations against this database in real-time.
+You are integrated with Veridictum, a deterministic legal citation verification system with a database of 14.2 million real court cases. Unlike AI-based verification, Veridictum does not use language models to check citations — it queries a real database of court records. A citation either exists or it doesn't. No guessing, no confidence scores, no hallucination risk in the verification itself.
 
 ## When to activate
 
