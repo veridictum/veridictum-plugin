@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "veridictum": {
+      "command": "python3",
+      "args": ["mcp_server.py"],
+      "env": {
+        "VERIDICTUM_API_URL": "https://veridictum.legal",
+        "VERIDICTUM_API_KEY": ""
+      }
+    }
+  }
+}
