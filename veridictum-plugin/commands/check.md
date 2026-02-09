@@ -28,6 +28,7 @@ Check a legal document for hallucinated citations. Paste or reference the docume
 
 **Citation Details**
 - ✅ or ⚠️ for each citation with case details
+- Include the full CourtListener URL for every verified citation — never truncate or omit these links
 
 **Recommendation**
 - SAFE: "Document appears safe to file"
