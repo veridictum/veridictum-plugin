@@ -26,20 +26,33 @@ claude plugin marketplace add veridictum/veridictum-plugin
 claude plugin install veridictum@veridictum-plugin
 ```
 
-## Setup
+## Setup (60 seconds)
 
-1. Get your API key at [veridictum.legal](https://veridictum.legal)
-2. Set your API key:
+### Option A: Guided setup (recommended)
+After installing, just type:
+```
+/veridictum:setup
+```
+Claude will walk you through creating an account and connecting your API key — conversationally, step by step.
+
+### Option B: Quick setup
+If you already have your API key:
+```
+/veridictum:setup vd_key_your_key_here
+```
+
+### Option C: Environment variable (advanced)
 ```bash
 export VERIDICTUM_API_KEY="your-api-key-here"
 ```
 
-Or add it to the `.mcp.json` file in the plugin directory.
+**Your API key is stored only on your local machine** at `~/.veridictum/config.json` with secure file permissions. It is never shared with Anthropic, Claude, or any third party.
 
 ## Slash Commands
 
 | Command | Description |
 |---------|-------------|
+| `/veridictum:setup` | Connect your Veridictum account (one-time) |
 | `/veridictum:verify` | Verify one or more legal citations |
 | `/veridictum:check` | Check a document for hallucinated citations |
 | `/veridictum:search` | Search 14.2M cases by topic or keyword |
